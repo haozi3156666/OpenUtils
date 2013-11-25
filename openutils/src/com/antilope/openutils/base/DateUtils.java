@@ -31,7 +31,14 @@ public class DateUtils {
 	public static SimpleDateFormat formatDate = new SimpleDateFormat(
 			"yyyy-MM-dd");
 	public static SimpleDateFormat formatTime = new SimpleDateFormat("HH:mm:ss");
+	
 	public static SimpleDateFormat formatTimeNoSeconds = new SimpleDateFormat(
 			"HH:mm");
-
+	
+	public String getNomalDate(){
+		return formatNomal.format(new Date());
+	}
+	
+	
+	
 }
