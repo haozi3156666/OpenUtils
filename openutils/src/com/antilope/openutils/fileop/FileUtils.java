@@ -15,7 +15,6 @@ package com.antilope.openutils.fileop;
      */
     public class FileUtils {
     
-    
         private static void createDirectory(String directory, String subDirectory) {
             String dir[];
             File fl = new File(directory);
