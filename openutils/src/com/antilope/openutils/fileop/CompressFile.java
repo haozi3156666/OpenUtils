@@ -1,14 +1,17 @@
 package com.antilope.openutils.fileop;
 
-import java.io.File;   
-import java.io.FileInputStream;   
-import java.io.FileOutputStream;   
-import java.io.IOException;   
-import java.io.InputStream;   
-import java.util.Enumeration;   
-import org.apache.tools.zip.ZipEntry;   
-import org.apache.tools.zip.ZipFile;   
-import org.apache.tools.zip.ZipOutputStream;   
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Enumeration;
+
+import org.apache.tools.zip.ZipEntry;
+import org.apache.tools.zip.ZipFile;
+import org.apache.tools.zip.ZipOutputStream;
 
 public class CompressFile {   
 	

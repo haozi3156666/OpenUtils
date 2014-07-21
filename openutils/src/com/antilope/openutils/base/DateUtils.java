@@ -19,7 +19,7 @@ import java.util.List;
  * 
  */
 public class DateUtils {
-	//develop ∑÷÷ß
+
 	public static SimpleDateFormat formatNomal = new SimpleDateFormat(
 			"yyyy-MM-dd HH:mm:ss");
 	public static SimpleDateFormat formatMilli = new SimpleDateFormat(
@@ -39,6 +39,6 @@ public class DateUtils {
 		return formatNomal.format(new Date());
 	}
 	
-	
+	public static String sysTime = formatNomal.format(new Date());
 	
 }
