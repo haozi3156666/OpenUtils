@@ -167,11 +167,14 @@ public class FileUtils {
 	}
 
 	public static void main(String[] args) {
+		
+		String dir = "E:/北航/bigdata/short-text-documents";
+		
 		PropertyConfigurator.configure("log4j.properties");
 		System.out.println("开始读取数据源文件列表 " + DateUtils.sysTime);
 		// 所有文件列表获取
 		List<File> fileList = FileUtils
-				.getAllFilePath("E:/北航/bigdata/short-text-documents");
+				.getAllFilePath(dir);
 		System.out.println("读取数据源文件列表结束 " + DateUtils.sysTime+" "+fileList.size());
 		// 总文件数
 		int tootleFiles = fileList.size();
