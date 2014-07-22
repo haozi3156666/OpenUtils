@@ -18,6 +18,7 @@ public class StopWords {
 		add("?");
 		add("“");
 		add("”");
+		add(" ");
 		add("》");
 		add("－－");
 		add("able");
@@ -1082,10 +1083,18 @@ public class StopWords {
 		add("WOULD");
 		add("wouldn't");
 		add("WOULDN'T");
+		add("-");
 		add("yes");
 		add("YES");
+		add("\"No");
 		add("yet");
+		add("possibly");
+		add("Itwont");
+		add("Written");
 		add("YET");
+		add("J0IN");
+		add("Click");
+		add("total");
 		add("you");
 		add("YOU");
 		add("you'd");
